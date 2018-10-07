@@ -1,20 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using System.Data.SQLite;
 using System.Linq;
 using System.Threading.Tasks;
 
 using Dapper;
 using Microsoft.Extensions.Options;
-using Microsoft.Data.Sqlite;
 using NozzyTasks.Models;
 using NozzyTasks.Models.Db;
 using NozzyTasks.Models.Options;
-using System.Data.SQLite;
 
-namespace NozzyTasks.Services
-{
+namespace NozzyTasks.Services {
     public class SqlService : ISqlService
     {
 
